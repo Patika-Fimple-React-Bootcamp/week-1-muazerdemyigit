@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Form ve Liste</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-container">
+        <h2>Form</h2>
+        <form id="todoForm">
+          <label for="title">Title:</label>
+          <input type="text" id="title" required />
+          <div class="checkbox-container">
+            <input type="checkbox" id="completed" />
+            <label for="completed">Completed</label>
+          </div>
+          <button class="button" type="submit">Submit</button>
+        </form>
+      </div>
+      <div class="list-container">
+        <h2>Liste</h2>
+        <ul id="todoList">
+          <!-- Liste elemanları buraya eklenecek -->
+        </ul>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
